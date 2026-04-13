@@ -1,0 +1,30 @@
+[
+  {
+    "name": "Simulating Federated Learning and Homomorphic Encryption",
+    "description": "Simulates privacy-preserving ML training across distributed nodes using federated learning and homomorphic encryption.",
+    "tags": ["Flask", "PyTorch", "Streamlit"],
+    "url": "https://github.com/aayushsss1",
+    "featured": true
+  },
+  {
+    "name": "WikiSpeaks — Scalable RAG-based Wikipedia Assistant",
+    "description": "A scalable retrieval-augmented generation assistant that answers questions using Wikipedia as a knowledge base.",
+    "tags": ["Kserve", "Kubernetes", "Streamlit", "Langchain"],
+    "url": "https://github.com/aayushsss1",
+    "featured": true
+  },
+  {
+    "name": "Fire Detection Android App",
+    "description": "Real-time fire detection on Android using a TensorFlow model deployed with Kubernetes and Streamlit.",
+    "tags": ["Tensorflow", "Gradle"],
+    "url": "https://github.com/aayushsss1",
+    "featured": false
+  },
+  {
+    "name": "Exploratory Analysis of Geolocational Data",
+    "description": "Geospatial data analysis and visualization uncovering patterns across location datasets.",
+    "tags": ["Sci-Kit Learn", "Pandas", "Matplotlib"],
+    "url": "https://github.com/aayushsss1",
+    "featured": false
+  }
+]

@@ -1,0 +1,10 @@
+{
+  "frameworks": [
+    "PyTorch", "TensorFlow", "Scikit-Learn", "Flask", "Streamlit",
+    "Kubernetes", "Terraform", "Langchain", "Kserve", "Next.js"
+  ],
+  "softSkills": [
+    "Design Thinking", "Agile", "Product Management",
+    "Entrepreneurship", "Creativity", "Leadership"
+  ]
+}

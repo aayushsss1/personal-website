@@ -1,0 +1,36 @@
+[
+  {
+    "repo": "terraform-provider-ibm",
+    "prs": [
+      { "number": 4775, "title": "Terraform Support for Satellite Storage Configurations & Assets", "url": "https://github.com/IBM-Cloud/terraform-provider-ibm/pull/4775", "status": "Merged" },
+      { "number": 4408, "title": "Support for AddOn parameters", "url": "https://github.com/IBM-Cloud/terraform-provider-ibm/pull/4408", "status": "Merged" },
+      { "number": 4549, "title": "OpenShift-Data-Foundation Terraform Example & Documentation", "url": "https://github.com/IBM-Cloud/terraform-provider-ibm/pull/4549", "status": "Merged" },
+      { "number": 4600, "title": "Support for ODF Worker Replace", "url": "https://github.com/IBM-Cloud/terraform-provider-ibm/pull/4600", "status": "Merged" }
+    ]
+  },
+  {
+    "repo": "odf-operator",
+    "prs": [
+      { "number": 12, "title": "Fixed Satellite Storage Deprecated Calls", "url": "https://github.com/red-hat-storage/odf-operator/pull/12", "status": "Merged" },
+      { "number": 13, "title": "Fixed Satellite Assignment Calls", "url": "https://github.com/red-hat-storage/odf-operator/pull/13", "status": "Merged" },
+      { "number": 190, "title": "Base Image Change", "url": "https://github.com/red-hat-storage/odf-operator/pull/190", "status": "Merged" }
+    ]
+  },
+  {
+    "repo": "ocs-operator",
+    "prs": [
+      { "number": 507, "title": "docs: changed every instance of default_bucket to bucket", "url": "https://github.com/red-hat-storage/ocs-operator/pull/507", "status": "Merged" },
+      { "number": 2488, "title": "ReadWriteOncePod access mode added to PVs", "url": "https://github.com/red-hat-storage/ocs-operator/pull/2488", "status": "Merged" },
+      { "number": 2493, "title": "min_ready_seconds parameter support for statefulset", "url": "https://github.com/red-hat-storage/ocs-operator/pull/2493", "status": "Merged" }
+    ]
+  },
+  {
+    "repo": "terraform-provider-aws",
+    "prs": [
+      { "number": 38398, "title": "Removed deprecated base_policy_region attribute in r/aws_networkfirewall_firewall", "url": "https://github.com/hashicorp/terraform-provider-aws/pull/38398", "status": "Merged" },
+      { "number": 38050, "title": "aws_batch_compute_environment: Deprecated compute_environment_name", "url": "https://github.com/hashicorp/terraform-provider-aws/pull/38050", "status": "Merged" },
+      { "number": 37852, "title": "Added bootstrap_brokers_vpc_connectivity attributes to aws_msk_cluster", "url": "https://github.com/hashicorp/terraform-provider-aws/pull/37852", "status": "Open" },
+      { "number": 2576, "title": "ValidatingAdmissionPolicy resource support", "url": "https://github.com/hashicorp/terraform-provider-aws/pull/2576", "status": "Open" }
+    ]
+  }
+]

@@ -1,0 +1,26 @@
+[
+  {
+    "filename": "lake-mountains.jpg",
+    "alt": "Mountain lake under overcast sky",
+    "orientation": "landscape",
+    "featured": true
+  },
+  {
+    "filename": "hillside-pines.jpg",
+    "alt": "Young pine trees on a dry hillside",
+    "orientation": "landscape",
+    "featured": true
+  },
+  {
+    "filename": "sky-gradient.jpg",
+    "alt": "Blue sky gradient from horizon",
+    "orientation": "landscape",
+    "featured": true
+  },
+  {
+    "filename": "architecture-wall.jpg",
+    "alt": "Geometric chevron wall pattern",
+    "orientation": "landscape",
+    "featured": false
+  }
+]

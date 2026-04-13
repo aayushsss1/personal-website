@@ -1,0 +1,22 @@
+[
+  {
+    "title": "Real Time Monitoring of Forest Fires and Wildfire Spread Prediction",
+    "description": "A paper on using ML models for real-time wildfire detection and spread forecasting.",
+    "url": "https://github.com/aayushsss1"
+  },
+  {
+    "title": "Automated Resource Scaling in Kubeflow through Time Series Forecasting",
+    "description": "Explores time series methods to predict and automate resource allocation in Kubeflow pipelines.",
+    "url": "https://github.com/aayushsss1"
+  },
+  {
+    "title": "Deploying & Managing OpenShift Data Foundation on IBM Cloud",
+    "description": "A practical guide to deploying and operating ODF on IBM Cloud infrastructure.",
+    "url": "https://github.com/aayushsss1"
+  },
+  {
+    "title": "OpenShift Data Foundation — An Overview",
+    "description": "A technical overview of OpenShift Data Foundation architecture and use cases.",
+    "url": "https://github.com/aayushsss1"
+  }
+]
