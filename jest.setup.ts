@@ -13,6 +13,13 @@ global.IntersectionObserver = jest.fn((_callback, _options) => ({
   takeRecords: jest.fn(() => []),
 })) as unknown as typeof IntersectionObserver
 
+// Mock next/navigation (not available in jsdom)
+jest.mock('next/navigation', () => ({
+  useRouter: jest.fn(() => ({ push: jest.fn(), back: jest.fn(), prefetch: jest.fn() })),
+  usePathname: jest.fn(() => '/'),
+  useSearchParams: jest.fn(() => new URLSearchParams()),
+}))
+
 // Mock next/image to render a plain <img> (avoids jsdom image processing issues)
 jest.mock('next/image', () => ({
   __esModule: true,
