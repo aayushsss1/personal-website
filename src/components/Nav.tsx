@@ -21,6 +21,15 @@ export default function Nav() {
     return () => window.removeEventListener('scroll', handleScroll)
   }, [])
 
+  useEffect(() => {
+    if (!menuOpen) return
+    const handleKeyDown = (e: KeyboardEvent) => {
+      if (e.key === 'Escape') setMenuOpen(false)
+    }
+    window.addEventListener('keydown', handleKeyDown)
+    return () => window.removeEventListener('keydown', handleKeyDown)
+  }, [menuOpen])
+
   return (
     <>
       {/* Desktop nav — fades in after scrolling past hero */}
@@ -49,6 +58,7 @@ export default function Nav() {
         <button
           onClick={() => setMenuOpen(true)}
           aria-label="Open menu"
+          aria-expanded={menuOpen}
           className="flex flex-col gap-[5px] p-2"
         >
           <span className="block w-5 h-[1.5px] bg-text-primary" />
@@ -59,7 +69,12 @@ export default function Nav() {
 
       {/* Mobile full-screen overlay */}
       {menuOpen && (
-        <div className="md:hidden fixed inset-0 z-50 bg-bg flex flex-col items-center justify-center gap-10">
+        <div
+          className="md:hidden fixed inset-0 z-50 bg-bg flex flex-col items-center justify-center gap-10"
+          role="dialog"
+          aria-modal="true"
+          aria-label="Navigation menu"
+        >
           <button
             onClick={() => setMenuOpen(false)}
             aria-label="Close menu"

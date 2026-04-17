@@ -3,6 +3,7 @@ export default function Hero() {
     <section
       className="relative flex items-center justify-center"
       style={{ height: '100dvh' }}
+      aria-labelledby="hero-heading"
     >
       {/* Background photo */}
       <div
@@ -19,7 +20,7 @@ export default function Hero() {
 
       {/* Content */}
       <div className="relative z-10 text-center px-6">
-        <h1 className="font-serif text-5xl md:text-7xl text-text-primary mb-4">
+        <h1 id="hero-heading" className="font-serif text-5xl md:text-7xl text-text-primary mb-4">
           Aayush Subramaniam
         </h1>
         <p className="text-sm md:text-base tracking-[0.3em] uppercase text-text-secondary">

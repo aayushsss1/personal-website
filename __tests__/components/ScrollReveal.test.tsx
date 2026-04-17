@@ -12,4 +12,15 @@ describe('ScrollReveal', () => {
     const { container } = render(<ScrollReveal><p>test</p></ScrollReveal>)
     expect(container.firstChild).toHaveClass('reveal')
   })
+
+  it('applies reveal-delay-2 class when delay=2', () => {
+    const { container } = render(<ScrollReveal delay={2}><p>test</p></ScrollReveal>)
+    expect(container.firstChild).toHaveClass('reveal-delay-2')
+  })
+
+  it('does not apply any reveal-delay class when no delay', () => {
+    const { container } = render(<ScrollReveal><p>test</p></ScrollReveal>)
+    expect(container.firstChild).not.toHaveClass('reveal-delay-1')
+    expect(container.firstChild).not.toHaveClass('reveal-delay-2')
+  })
 })
