@@ -16,6 +16,7 @@ const inter = Inter({
 })
 
 export const metadata: Metadata = {
+  metadataBase: new URL('https://www.aayushsubramaniam.com'),
   title: 'Aayush Subramaniam',
   description:
     'Software engineer, photographer, and traveler based in Buffalo, New York.',

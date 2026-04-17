@@ -3,7 +3,7 @@ import ScrollReveal from './ScrollReveal'
 
 export default function About() {
   return (
-    <section id="about" className="px-6 md:px-16 lg:px-32 py-24 md:py-36">
+    <section id="about" aria-label="About" className="px-6 md:px-16 lg:px-32 py-24 md:py-36">
       <div className="max-w-5xl mx-auto flex flex-col md:flex-row gap-12 items-start">
         {/* Photos */}
         <div className="flex gap-4 shrink-0">

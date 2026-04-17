@@ -22,6 +22,7 @@ const items = [
 export default function Contact() {
   return (
     <section id="contact" className="px-6 md:px-16 lg:px-32 py-24 md:py-36">
+      <h2 className="sr-only">Contact</h2>
       <div className="max-w-3xl mx-auto">
         <ScrollReveal>
           <p className="text-text-secondary text-sm tracking-widest uppercase mb-12">
