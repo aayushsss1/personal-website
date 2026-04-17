@@ -4,6 +4,7 @@ import writing from '@/data/writing.json'
 import oss from '@/data/oss.json'
 import skills from '@/data/skills.json'
 import photos from '@/data/photos.json'
+import type { Project, WritingItem, OSSRepo, Skills, Photo } from '@/types'
 
 describe('projects.json', () => {
   it('is a non-empty array', () => {
@@ -11,7 +12,7 @@ describe('projects.json', () => {
     expect(projects.length).toBeGreaterThan(0)
   })
   it('each project has required fields', () => {
-    projects.forEach((p: any) => {
+    (projects as Project[]).forEach((p) => {
       expect(typeof p.name).toBe('string')
       expect(typeof p.description).toBe('string')
       expect(Array.isArray(p.tags)).toBe(true)
@@ -27,7 +28,7 @@ describe('writing.json', () => {
     expect(writing.length).toBeGreaterThan(0)
   })
   it('each item has required fields', () => {
-    writing.forEach((w: any) => {
+    (writing as WritingItem[]).forEach((w) => {
       expect(typeof w.title).toBe('string')
       expect(typeof w.description).toBe('string')
       expect(typeof w.url).toBe('string')
@@ -40,11 +41,12 @@ describe('oss.json', () => {
     expect(Array.isArray(oss)).toBe(true)
     expect(oss.length).toBeGreaterThan(0)
   })
-  it('each repo has name and prs array', () => {
-    oss.forEach((r: any) => {
+  it('each repo has name and non-empty prs array', () => {
+    (oss as OSSRepo[]).forEach((r) => {
       expect(typeof r.repo).toBe('string')
       expect(Array.isArray(r.prs)).toBe(true)
-      r.prs.forEach((pr: any) => {
+      expect(r.prs.length).toBeGreaterThan(0)
+      r.prs.forEach((pr) => {
         expect(typeof pr.number).toBe('number')
         expect(typeof pr.title).toBe('string')
         expect(typeof pr.url).toBe('string')
@@ -55,9 +57,12 @@ describe('oss.json', () => {
 })
 
 describe('skills.json', () => {
-  it('has frameworks and softSkills arrays', () => {
-    expect(Array.isArray((skills as any).frameworks)).toBe(true)
-    expect(Array.isArray((skills as any).softSkills)).toBe(true)
+  it('has non-empty frameworks and softSkills arrays', () => {
+    const s = skills as Skills
+    expect(Array.isArray(s.frameworks)).toBe(true)
+    expect(s.frameworks.length).toBeGreaterThan(0)
+    expect(Array.isArray(s.softSkills)).toBe(true)
+    expect(s.softSkills.length).toBeGreaterThan(0)
   })
 })
 
@@ -67,7 +72,7 @@ describe('photos.json', () => {
     expect(photos.length).toBeGreaterThan(0)
   })
   it('each photo has required fields', () => {
-    photos.forEach((p: any) => {
+    (photos as Photo[]).forEach((p) => {
       expect(typeof p.filename).toBe('string')
       expect(typeof p.alt).toBe('string')
       expect(['landscape', 'portrait']).toContain(p.orientation)
@@ -76,11 +81,11 @@ describe('photos.json', () => {
   })
   it('has at least 3 featured photos', () => {
     // The home page 1+2 grid requires at least 3 featured photos (uses first 3).
-    const featured = photos.filter((p: any) => p.featured)
+    const featured = (photos as Photo[]).filter((p) => p.featured)
     expect(featured.length).toBeGreaterThanOrEqual(3)
   })
   it('first featured photo is landscape orientation', () => {
-    const featured = photos.filter((p: any) => p.featured)
+    const featured = (photos as Photo[]).filter((p) => p.featured)
     expect(featured[0].orientation).toBe('landscape')
   })
 })
