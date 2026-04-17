@@ -3,6 +3,7 @@
 @import "tailwindcss";
 @config "../../tailwind.config.ts";
 
+/* Single source of truth for design tokens — Tailwind 4 @theme generates utility classes */
 @theme {
   --color-bg: #0d0d0d;
   --color-surface: #141414;
@@ -13,22 +14,13 @@
   --font-family-sans: var(--font-sans), system-ui, sans-serif;
 }
 
-:root {
-  --bg: #0d0d0d;
-  --surface: #141414;
-  --text-primary: #f0ede8;
-  --text-secondary: #888880;
-  --accent: #C9783A;
-}
-
 html {
   scroll-behavior: smooth;
-  background-color: var(--bg);
-  color: var(--text-primary);
+  background-color: var(--color-bg);
+  color: var(--color-text-primary);
 }
 
 body {
-  font-family: 'Inter', system-ui, sans-serif;
   -webkit-font-smoothing: antialiased;
 }
 
