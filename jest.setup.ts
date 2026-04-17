@@ -23,7 +23,7 @@ jest.mock('next/navigation', () => ({
 // Mock next/image to render a plain <img> (avoids jsdom image processing issues)
 jest.mock('next/image', () => ({
   __esModule: true,
-  default: ({ src, alt, ...props }: { src: string; alt: string; [key: string]: unknown }) => {
+  default: ({ src, alt, fill: _fill, priority: _priority, sizes: _sizes, quality: _quality, ...props }: { src: string; alt: string; fill?: boolean; priority?: boolean; sizes?: string; quality?: number; [key: string]: unknown }) => {
     // eslint-disable-next-line @next/next/no-img-element
     return <img src={src} alt={alt} {...props} />
   },

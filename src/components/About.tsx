@@ -11,7 +11,7 @@ export default function About() {
             <div className="relative w-[180px] md:w-[220px] h-[340px] md:h-[420px] overflow-hidden">
               <Image
                 src="/images/about-1.jpg"
-                alt="Aayush in landscape"
+                alt="Aayush in an open landscape"
                 fill
                 className="object-cover"
                 sizes="(max-width: 768px) 180px, 220px"
@@ -22,7 +22,7 @@ export default function About() {
             <div className="relative w-[150px] md:w-[190px] h-[280px] md:h-[340px] mt-10 overflow-hidden">
               <Image
                 src="/images/about-2.jpg"
-                alt="Aayush in landscape"
+                alt="Aayush looking out at a mountain vista"
                 fill
                 className="object-cover"
                 sizes="(max-width: 768px) 150px, 190px"

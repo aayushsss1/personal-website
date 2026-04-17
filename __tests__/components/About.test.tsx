@@ -12,9 +12,9 @@ describe('About', () => {
     expect(screen.getByText(/I'm Aayush/i)).toBeInTheDocument()
   })
 
-  it('renders two photos', () => {
+  it('renders two photos with distinct alt text', () => {
     render(<About />)
-    const images = screen.getAllByRole('img')
-    expect(images.length).toBeGreaterThanOrEqual(2)
+    expect(screen.getByAltText('Aayush in an open landscape')).toBeInTheDocument()
+    expect(screen.getByAltText('Aayush looking out at a mountain vista')).toBeInTheDocument()
   })
 })
