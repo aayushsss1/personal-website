@@ -8,7 +8,7 @@ const items = [
     href: 'mailto:aayushsubramaniam@gmail.com',
   },
   {
-    label: 'Code',
+    label: 'GitHub',
     value: 'github.com/aayushsss1',
     href: 'https://github.com/aayushsss1',
   },

@@ -15,9 +15,8 @@ describe('Contact', () => {
 
   it('renders GitHub link', () => {
     render(<Contact />)
-    expect(screen.getByText(/github/i).closest('a')).toHaveAttribute(
-      'href',
-      'https://github.com/aayushsss1'
-    )
+    // Find the link by its display text (the value, not the label)
+    const githubLink = screen.getByText('github.com/aayushsss1').closest('a')
+    expect(githubLink).toHaveAttribute('href', 'https://github.com/aayushsss1')
   })
 })
