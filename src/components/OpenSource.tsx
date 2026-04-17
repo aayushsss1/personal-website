@@ -4,7 +4,7 @@ import ScrollReveal from './ScrollReveal'
 
 export default function OpenSource() {
   return (
-    <section className="px-6 md:px-16 lg:px-32 py-24 md:py-36">
+    <section id="open-source" className="px-6 md:px-16 lg:px-32 py-24 md:py-36">
       <div className="max-w-3xl mx-auto">
         <ScrollReveal>
           <h2 className="font-serif text-3xl md:text-4xl text-text-primary mb-4">

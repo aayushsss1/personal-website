@@ -6,7 +6,7 @@ const { frameworks, softSkills } = skills as SkillsType
 
 export default function Skills() {
   return (
-    <section className="px-6 md:px-16 lg:px-32 py-16 md:py-24">
+    <section id="skills" className="px-6 md:px-16 lg:px-32 py-16 md:py-24">
       <div className="max-w-3xl mx-auto">
         <ScrollReveal>
           <h2 className="font-serif text-3xl md:text-4xl text-text-primary mb-12">
