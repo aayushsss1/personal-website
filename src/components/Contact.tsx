@@ -1,7 +1,7 @@
 import ScrollReveal from './ScrollReveal'
 
 const items = [
-  { label: 'Location', value: 'Buffalo, New York', href: null },
+  { label: 'Location', value: 'Phoenix, Arizona', href: null },
   {
     label: 'Email',
     value: 'aayushsubramaniam@gmail.com',
