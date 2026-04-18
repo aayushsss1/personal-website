@@ -46,7 +46,7 @@ export default function RootLayout({
       <head>
         <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
       </head>
-      <body className="bg-bg text-text-primary font-sans">{children}</body>
+      <body className="bg-bg text-text-primary font-sans" suppressHydrationWarning>{children}</body>
     </html>
   )
 }
