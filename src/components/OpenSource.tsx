@@ -11,8 +11,7 @@ export default function OpenSource() {
             Open Source
           </h2>
           <p className="text-text-secondary mb-16 leading-relaxed">
-            I contribute to MLOps, DevOps, and Platform repositories — always
-            open to collaborations.
+            I contribute to MLOps, DevOps, and platform projects. Always open to collaborating.
           </p>
         </ScrollReveal>
 

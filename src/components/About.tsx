@@ -34,15 +34,14 @@ export default function About() {
         {/* Bio */}
         <ScrollReveal delay={1} className="flex-1 pt-4">
           <p className="font-serif text-2xl md:text-3xl text-text-primary leading-snug mb-6">
-            I&apos;m Aayush — a software engineer who builds across ML and
-            infrastructure, shoots landscapes on a Fujifilm XT4, and enjoys
-            travel and sports when I&apos;m not at a keyboard.
+            I&apos;m Aayush. I build software in the ML and cloud-native space,
+            shoot landscapes on a Fujifilm XT4, and travel whenever I get
+            the chance.
           </p>
           <p className="text-text-secondary leading-relaxed">
-            CS graduate from the University at Buffalo. I&apos;ve worked across
-            machine learning, platform engineering, and open source — mostly
-            in the MLOps and cloud-native space. I care about building things
-            that are well-designed and actually work.
+            CS grad from the University at Buffalo. Most of my work has been
+            in machine learning, platform engineering, and open source.
+            I like building things that are well-made and hold up.
           </p>
         </ScrollReveal>
       </div>
