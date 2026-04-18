@@ -10,13 +10,8 @@
     "url": "https://github.com/aayushsss1"
   },
   {
-    "title": "Deploying & Managing OpenShift Data Foundation on IBM Cloud",
-    "description": "A practical guide to deploying and operating ODF on IBM Cloud infrastructure.",
-    "url": "https://github.com/aayushsss1"
-  },
-  {
-    "title": "OpenShift Data Foundation — An Overview",
-    "description": "A technical overview of OpenShift Data Foundation architecture and use cases.",
-    "url": "https://github.com/aayushsss1"
+    "title": "ODF on IBM Cloud Using Terraform",
+    "description": "Step-by-step guide to deploying OpenShift Data Foundation on IBM Cloud with Terraform.",
+    "url": "https://dzone.com/articles/odf-on-ibm-cloud-using-terraform-pt-1"
   }
 ]
