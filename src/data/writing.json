@@ -13,5 +13,10 @@
     "title": "ODF on IBM Cloud Using Terraform",
     "description": "Step-by-step guide to deploying OpenShift Data Foundation on IBM Cloud with Terraform.",
     "url": "https://dzone.com/articles/odf-on-ibm-cloud-using-terraform-pt-1"
+  },
+  {
+    "title": "OpenShift Data Foundation: An Overview",
+    "description": "A technical overview of OpenShift Data Foundation architecture, components, and use cases.",
+    "url": "https://aayushsubramaniam.notion.site/OpenShift-Data-Foundation-An-Overview-008d1735296d4a129445fa5c092d907c"
   }
 ]
