@@ -1,7 +1,17 @@
 {
-  "frameworks": [
-    "PyTorch", "TensorFlow", "Scikit-Learn", "Flask", "Streamlit",
-    "Kubernetes", "Terraform", "Langchain", "Kserve", "Next.js"
+  "languages": ["Python", "Go", "SQL", "Java", "C", "C++"],
+  "aiAndML": [
+    "PyTorch", "Scikit-Learn", "Ray", "LangChain", "LangGraph",
+    "Transformers", "FastAPI", "Flask", "Django", "Spring"
+  ],
+  "cloudAndDevOps": [
+    "AWS", "IBM Cloud", "Databricks",
+    "Docker", "Kubernetes", "Terraform", "Kubeflow", "MLflow",
+    "Prometheus", "Grafana", "Jenkins", "Travis CI"
+  ],
+  "dataScience": [
+    "Pandas", "NumPy", "SciPy", "Statsmodels",
+    "Matplotlib", "Seaborn", "MySQL", "PostgreSQL"
   ],
   "softSkills": [
     "Design Thinking", "Agile", "Product Management",

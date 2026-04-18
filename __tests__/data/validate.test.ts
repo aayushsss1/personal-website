@@ -57,10 +57,16 @@ describe('oss.json', () => {
 })
 
 describe('skills.json', () => {
-  it('has non-empty frameworks and softSkills arrays', () => {
+  it('has all required skill category arrays', () => {
     const s = skills as Skills
-    expect(Array.isArray(s.frameworks)).toBe(true)
-    expect(s.frameworks.length).toBeGreaterThan(0)
+    expect(Array.isArray(s.languages)).toBe(true)
+    expect(s.languages.length).toBeGreaterThan(0)
+    expect(Array.isArray(s.aiAndML)).toBe(true)
+    expect(s.aiAndML.length).toBeGreaterThan(0)
+    expect(Array.isArray(s.cloudAndDevOps)).toBe(true)
+    expect(s.cloudAndDevOps.length).toBeGreaterThan(0)
+    expect(Array.isArray(s.dataScience)).toBe(true)
+    expect(s.dataScience.length).toBeGreaterThan(0)
     expect(Array.isArray(s.softSkills)).toBe(true)
     expect(s.softSkills.length).toBeGreaterThan(0)
   })

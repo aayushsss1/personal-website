@@ -27,7 +27,10 @@ export interface OSSRepo {
 }
 
 export interface Skills {
-  frameworks: string[]
+  languages: string[]
+  aiAndML: string[]
+  cloudAndDevOps: string[]
+  dataScience: string[]
   softSkills: string[]
 }
 
