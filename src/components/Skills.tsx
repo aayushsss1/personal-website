@@ -37,10 +37,16 @@ export default function Skills() {
           </h2>
         </ScrollReveal>
 
-        {/* Languages — full width row */}
-        <div className="mb-12">
-          <SkillGroup label="Languages" items={languages} delay={1} />
-        </div>
+        {/* Languages — horizontal pill row, no label */}
+        <ScrollReveal delay={1}>
+          <div className="flex flex-wrap gap-x-6 gap-y-2 mb-12">
+            {languages.map((lang) => (
+              <span key={lang} className="text-text-secondary">
+                {lang}
+              </span>
+            ))}
+          </div>
+        </ScrollReveal>
 
         {/* Main technical grid */}
         <div className="grid grid-cols-1 sm:grid-cols-2 gap-12 mb-12">
