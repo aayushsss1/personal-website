@@ -34,8 +34,8 @@ export default function About() {
         {/* Bio */}
         <ScrollReveal delay={1} className="flex-1 pt-4">
           <p className="font-serif text-2xl md:text-3xl text-text-primary leading-snug mb-6">
-            I&apos;m Aayush. I build software in the ML and cloud-native space,
-            shoot landscapes on a Fujifilm XT4, and travel whenever I get
+            I&apos;m Aayush. I build and ship software in the AI and
+            cloud-native space, shoot landscapes, and travel whenever I get
             the chance.
           </p>
           <p className="text-text-secondary leading-relaxed">
