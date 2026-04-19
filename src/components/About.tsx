@@ -8,24 +8,26 @@ export default function About() {
         {/* Photos */}
         <div className="flex gap-4 shrink-0">
           <ScrollReveal delay={1}>
-            <div className="relative w-[180px] md:w-[220px] h-[340px] md:h-[420px] overflow-hidden">
+            <div className="relative w-[260px] md:w-[320px] h-[220px] md:h-[270px] overflow-hidden rounded-sm">
               <Image
-                src="/images/about-1.jpg"
-                alt="Aayush in an open landscape"
+                src="/images/about-sunset.jpg"
+                alt="Aayush silhouetted against a vivid Pacific sunset"
                 fill
-                className="object-cover"
-                sizes="(max-width: 768px) 180px, 220px"
+                className="object-cover object-[80%_50%]"
+                sizes="(max-width: 768px) 640px, 768px"
+                quality={95}
               />
             </div>
           </ScrollReveal>
           <ScrollReveal delay={2}>
-            <div className="relative w-[150px] md:w-[190px] h-[280px] md:h-[340px] mt-10 overflow-hidden">
+            <div className="relative w-[260px] md:w-[320px] h-[290px] md:h-[355px] mt-20 overflow-hidden rounded-sm">
               <Image
-                src="/images/about-2.jpg"
-                alt="Aayush looking out at a mountain vista"
+                src="/images/about-face.jpg"
+                alt="Aayush in New York City at night with the lit-up skyline behind him"
                 fill
-                className="object-cover"
-                sizes="(max-width: 768px) 150px, 190px"
+                className="object-cover object-top"
+                sizes="(max-width: 768px) 640px, 768px"
+                quality={95}
               />
             </div>
           </ScrollReveal>

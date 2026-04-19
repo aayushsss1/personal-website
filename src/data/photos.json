@@ -1,25 +1,109 @@
 [
   {
-    "filename": "lake-mountains.jpg",
-    "alt": "Mountain lake under overcast sky",
+    "filename": "roy-peak-nz.jpg",
+    "alt": "Panoramic view from Roy's Peak over Lake Wanaka, New Zealand",
     "orientation": "landscape",
     "featured": true
   },
   {
-    "filename": "hillside-pines.jpg",
-    "alt": "Young pine trees on a dry hillside",
+    "filename": "el-matador-cave-sunset.jpg",
+    "alt": "Golden sunburst through a sea cave arch at El Matador Beach",
+    "orientation": "portrait",
+    "featured": true
+  },
+  {
+    "filename": "mitre-peak.jpg",
+    "alt": "Mitre Peak rising above Milford Sound, Fiordland",
     "orientation": "landscape",
     "featured": true
   },
   {
-    "filename": "sky-gradient.jpg",
-    "alt": "Blue sky gradient from horizon",
+    "filename": "pfeiffer-rock-arch.jpg",
+    "alt": "Pfeiffer Beach keyhole arch at sunset, Big Sur",
     "orientation": "landscape",
     "featured": true
   },
   {
-    "filename": "architecture-wall.jpg",
-    "alt": "Geometric chevron wall pattern",
+    "filename": "wanaka-tree.jpg",
+    "alt": "That Wanaka Tree standing in the lake at dusk",
+    "orientation": "landscape",
+    "featured": false
+  },
+  {
+    "filename": "prayer-flags-himalayas.jpg",
+    "alt": "Colorful Buddhist prayer flags strung against snow-capped Himalayan peaks",
+    "orientation": "landscape",
+    "featured": false
+  },
+  {
+    "filename": "milford-sound-waterfall.jpg",
+    "alt": "Waterfall cascading into Milford Sound surrounded by sheer cliffs",
+    "orientation": "landscape",
+    "featured": false
+  },
+  {
+    "filename": "big-sur-coastline.jpg",
+    "alt": "Big Sur coastline with dramatic cliffs dropping into the Pacific",
+    "orientation": "landscape",
+    "featured": false
+  },
+  {
+    "filename": "mt-cook-valley.jpg",
+    "alt": "Valley floor leading toward Aoraki Mount Cook, New Zealand",
+    "orientation": "landscape",
+    "featured": false
+  },
+  {
+    "filename": "queenstown-lake-sunset.jpg",
+    "alt": "Sunset over Lake Wakatipu near Queenstown",
+    "orientation": "landscape",
+    "featured": false
+  },
+  {
+    "filename": "lone-cypress.jpg",
+    "alt": "The Lone Cypress on a rocky outcrop at 17-Mile Drive",
+    "orientation": "landscape",
+    "featured": false
+  },
+  {
+    "filename": "spiti-valley.jpg",
+    "alt": "Spiti Valley cutting through the high-altitude Himalayan desert",
+    "orientation": "landscape",
+    "featured": false
+  },
+  {
+    "filename": "himalayan-waterfall.jpg",
+    "alt": "Waterfall tumbling from a snow-lined cliff in the Himalayas",
+    "orientation": "portrait",
+    "featured": false
+  },
+  {
+    "filename": "himalayan-river-valley.jpg",
+    "alt": "River winding through a Himalayan valley framed by a dark cliff face and snow-capped peaks",
+    "orientation": "landscape",
+    "featured": false
+  },
+  {
+    "filename": "zuma-beach-sunset.jpg",
+    "alt": "Deep red and pink sunset over the Pacific at Zuma Beach, silhouetted figures on the shore",
+    "orientation": "landscape",
+    "featured": true
+  },
+  {
+    "filename": "manhattan-bridge-night.jpg",
+    "alt": "Manhattan Bridge lit up at night with the Lower Manhattan skyline behind it",
+    "orientation": "landscape",
+    "featured": false
+  },
+  {
+    "filename": "central-park-lake.jpg",
+    "alt": "Central Park lake with Billionaires' Row skyscrapers rising above the treeline on a clear day",
+    "orientation": "landscape",
+    "featured": false
+  },
+  {
+    "filename": "central-park-storm.jpg",
+    "alt": "Midtown Manhattan supertalls piercing through a dramatic overcast sky from Central Park",
     "orientation": "landscape",
     "featured": false
   }
