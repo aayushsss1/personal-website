@@ -6,27 +6,27 @@ export default function About() {
     <section id="about" aria-label="About" className="px-6 md:px-16 lg:px-32 py-24 md:py-36">
       <div className="max-w-5xl mx-auto flex flex-col md:flex-row gap-12 items-start">
         {/* Photos */}
-        <div className="flex gap-4 shrink-0">
+        <div className="flex gap-3 shrink-0">
           <ScrollReveal delay={1}>
-            <div className="relative w-[260px] md:w-[320px] h-[220px] md:h-[270px] overflow-hidden rounded-sm">
+            <div className="relative w-[150px] sm:w-[220px] md:w-[320px] h-[180px] sm:h-[230px] md:h-[270px] overflow-hidden rounded-sm">
               <Image
                 src="/images/about-sunset.jpg"
                 alt="Aayush silhouetted against a vivid Pacific sunset"
                 fill
                 className="object-cover object-[80%_50%]"
-                sizes="(max-width: 768px) 640px, 768px"
+                sizes="(max-width: 640px) 300px, (max-width: 768px) 440px, 768px"
                 quality={95}
               />
             </div>
           </ScrollReveal>
           <ScrollReveal delay={2}>
-            <div className="relative w-[260px] md:w-[320px] h-[290px] md:h-[355px] mt-20 overflow-hidden rounded-sm">
+            <div className="relative w-[150px] sm:w-[220px] md:w-[320px] h-[210px] sm:h-[280px] md:h-[355px] mt-8 sm:mt-12 md:mt-20 overflow-hidden rounded-sm">
               <Image
                 src="/images/about-face.jpg"
                 alt="Aayush in New York City at night with the lit-up skyline behind him"
                 fill
                 className="object-cover object-top"
-                sizes="(max-width: 768px) 640px, 768px"
+                sizes="(max-width: 640px) 300px, (max-width: 768px) 440px, 768px"
                 quality={95}
               />
             </div>

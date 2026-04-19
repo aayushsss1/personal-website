@@ -22,7 +22,7 @@ export default function PhotographySection() {
 
         {/* Top: full-width landscape */}
         <ScrollReveal>
-          <div className="relative w-full h-[320px] md:h-[480px] mb-3 overflow-hidden">
+          <div className="relative w-full h-[240px] sm:h-[360px] md:h-[480px] mb-3 overflow-hidden">
             <Image
               src={`/images/photography/${top.filename}`}
               alt={top.alt}
@@ -37,7 +37,7 @@ export default function PhotographySection() {
         <div className="grid grid-cols-1 md:grid-cols-2 gap-3 mb-10">
           {bottom.map((photo, i) => (
             <ScrollReveal key={photo.filename} delay={(i + 1) as 1 | 2}>
-              <div className="relative w-full h-[240px] md:h-[320px] overflow-hidden">
+              <div className="relative w-full h-[180px] sm:h-[260px] md:h-[320px] overflow-hidden">
                 <Image
                   src={`/images/photography/${photo.filename}`}
                   alt={photo.alt}

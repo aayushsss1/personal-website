@@ -40,7 +40,7 @@ export default function Hero() {
       >
         <h1
           id="hero-heading"
-          className="font-serif text-5xl md:text-7xl text-text-primary mb-4"
+          className="font-serif text-4xl sm:text-5xl md:text-7xl text-text-primary mb-4"
         >
           Aayush Subramaniam
         </h1>

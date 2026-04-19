@@ -32,7 +32,7 @@ export default function OpenSource() {
                         href={pr.url}
                         target="_blank"
                         rel="noopener noreferrer"
-                        className="text-text-primary hover:text-accent transition-colors duration-200 text-sm flex-1"
+                        className="text-text-primary hover:text-accent transition-colors duration-200 text-sm flex-1 break-words"
                       >
                         {pr.title}
                       </a>

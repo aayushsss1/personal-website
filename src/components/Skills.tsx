@@ -39,7 +39,7 @@ export default function Skills() {
 
         {/* Languages — horizontal pill row, no label */}
         <ScrollReveal delay={1}>
-          <div className="flex flex-wrap gap-x-6 gap-y-2 mb-12">
+          <div className="flex flex-wrap gap-x-4 sm:gap-x-6 gap-y-2 mb-12">
             {languages.map((lang) => (
               <span key={lang} className="text-text-secondary">
                 {lang}
