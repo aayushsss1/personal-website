@@ -8,7 +8,7 @@ export default function About() {
         {/* Photos */}
         <div className="flex gap-3 shrink-0">
           <ScrollReveal delay={1}>
-            <div className="relative w-[150px] sm:w-[220px] md:w-[320px] h-[180px] sm:h-[230px] md:h-[270px] overflow-hidden rounded-sm">
+            <div className="relative w-[180px] sm:w-[220px] md:w-[320px] h-[210px] sm:h-[230px] md:h-[270px] overflow-hidden rounded-sm">
               <Image
                 src="/images/about-sunset.jpg"
                 alt="Aayush silhouetted against a vivid Pacific sunset"
@@ -20,7 +20,7 @@ export default function About() {
             </div>
           </ScrollReveal>
           <ScrollReveal delay={2}>
-            <div className="relative w-[150px] sm:w-[220px] md:w-[320px] h-[210px] sm:h-[280px] md:h-[355px] mt-8 sm:mt-12 md:mt-20 overflow-hidden rounded-sm">
+            <div className="relative w-[180px] sm:w-[220px] md:w-[320px] h-[245px] sm:h-[280px] md:h-[355px] mt-8 sm:mt-12 md:mt-20 overflow-hidden rounded-sm">
               <Image
                 src="/images/about-face.jpg"
                 alt="Aayush in New York City at night with the lit-up skyline behind him"
