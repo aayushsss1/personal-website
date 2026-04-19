@@ -31,7 +31,7 @@ export default function PhotographyPage() {
       {/* Footer */}
       <div className="px-6 md:px-16 lg:px-32 py-16 text-center">
         <a
-          href="https://unsplash.com/@aayushsubramaniam"
+          href="https://unsplash.com/@aayushsss1"
           target="_blank"
           rel="noopener noreferrer"
           className="text-text-secondary hover:text-text-primary transition-colors duration-200 text-sm"
