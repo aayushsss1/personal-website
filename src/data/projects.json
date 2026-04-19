@@ -3,15 +3,22 @@
     "name": "Simulating Federated Learning and Homomorphic Encryption",
     "description": "Simulates privacy-preserving ML training across distributed nodes using federated learning and homomorphic encryption.",
     "tags": ["Flask", "PyTorch", "Streamlit"],
-    "url": "https://github.com/aayushsss1",
+    "url": "https://github.com/aayushsss1/Simulating-Federated-Learning-with-Homomorphic-Encryption",
     "featured": true
   },
   {
     "name": "WikiSpeaks — Scalable RAG-based Wikipedia Assistant",
     "description": "A scalable retrieval-augmented generation assistant that answers questions using Wikipedia as a knowledge base.",
     "tags": ["Kserve", "Kubernetes", "Streamlit", "Langchain"],
-    "url": "https://github.com/aayushsss1",
+    "url": "https://github.com/aayushsss1/WikiSpeaks",
     "featured": true
+  },
+  {
+    "name": "Interview AI",
+    "description": "Dynamically generates follow-up interview questions by analyzing candidate responses using speech-to-text and a Llama LLM with FAISS vector search.",
+    "tags": ["Python", "Llama", "FAISS", "Streamlit"],
+    "url": "https://github.com/aayushsss1/Interview-AI",
+    "featured": false
   },
   {
     "name": "Promscale",
