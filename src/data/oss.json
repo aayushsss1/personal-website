@@ -22,5 +22,24 @@
       { "number": 4600, "title": "Support for ODF Worker Replace", "url": "https://github.com/IBM-Cloud/terraform-provider-ibm/pull/4600", "status": "Merged" },
       { "number": 4627, "title": "Documentation for Openshift-Data-Foundation Add-on & VPC Worker Replace", "url": "https://github.com/IBM-Cloud/terraform-provider-ibm/pull/4627", "status": "Merged" }
     ]
+  },
+  {
+    "repo": "modelmesh-serving",
+    "prs": [
+      { "number": 507, "title": "docs: changed every instance of default_bucket to bucket", "url": "https://github.com/kserve/modelmesh-serving/pull/507", "status": "Merged" }
+    ]
+  },
+  {
+    "repo": "ibmcloud-storage-utilities",
+    "prs": [
+      { "number": 190, "title": "Base Image Change", "url": "https://github.com/IBM/ibmcloud-storage-utilities/pull/190", "status": "Merged" }
+    ]
+  },
+  {
+    "repo": "container-services-go-sdk",
+    "prs": [
+      { "number": 12, "title": "Fixed Satellite Storage Deprecated Calls", "url": "https://github.com/IBM-Cloud/container-services-go-sdk/pull/12", "status": "Merged" },
+      { "number": 13, "title": "Fixed Satellite Assignment Calls", "url": "https://github.com/IBM-Cloud/container-services-go-sdk/pull/13", "status": "Merged" }
+    ]
   }
 ]
