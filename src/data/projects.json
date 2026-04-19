@@ -1,35 +1,35 @@
 [
   {
     "name": "Simulating Federated Learning and Homomorphic Encryption",
-    "description": "Simulates privacy-preserving ML training across distributed nodes using federated learning and homomorphic encryption.",
+    "description": "Privacy-preserving ML training across distributed nodes.",
     "tags": ["Flask", "PyTorch", "Streamlit"],
     "url": "https://github.com/aayushsss1/Simulating-Federated-Learning-with-Homomorphic-Encryption",
     "featured": true
   },
   {
     "name": "WikiSpeaks — Scalable RAG-based Wikipedia Assistant",
-    "description": "A scalable retrieval-augmented generation assistant that answers questions using Wikipedia as a knowledge base.",
+    "description": "RAG assistant that answers questions using Wikipedia as a knowledge base.",
     "tags": ["Kserve", "Kubernetes", "Streamlit", "Langchain"],
     "url": "https://github.com/aayushsss1/WikiSpeaks",
     "featured": true
   },
   {
     "name": "Interview AI",
-    "description": "Dynamically generates follow-up interview questions by analyzing candidate responses using speech-to-text and a Llama LLM with FAISS vector search.",
+    "description": "Generates follow-up interview questions from candidate responses using speech-to-text and a Llama LLM.",
     "tags": ["Python", "Llama", "FAISS", "Streamlit"],
     "url": "https://github.com/aayushsss1/Interview-AI",
     "featured": false
   },
   {
     "name": "Promscale",
-    "description": "LLM-augmented Kubernetes operator that combines Prometheus metrics with AI reasoning via Gemini to autoscale workloads with safety guardrails.",
+    "description": "Kubernetes operator combining Prometheus metrics with Gemini to autoscale workloads.",
     "tags": ["Go", "Kubernetes", "Prometheus", "Gemini"],
     "url": "https://github.com/aayushsss1/promscale",
     "featured": false
   },
   {
     "name": "CounselRAG",
-    "description": "Contextually-aware legal Q&A platform using fine-tuned Gemma models, FAISS vector search, and a Neo4j knowledge graph.",
+    "description": "Legal Q&A platform using fine-tuned Gemma models, FAISS, and a Neo4j knowledge graph.",
     "tags": ["RAG", "LangChain", "Neo4j", "Gemma"],
     "url": "https://github.com/aayushsss1/CounselRAG",
     "featured": false

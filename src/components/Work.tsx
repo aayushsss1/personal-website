@@ -19,18 +19,21 @@ function ProjectItem({ project, index }: { project: Project; index: number }) {
   return (
     <ScrollReveal delay={(Math.min(index, 3) + 1) as 1 | 2 | 3 | 4}>
       <div className="py-5 border-b border-surface last:border-0">
-        <a
-          href={project.url}
-          target="_blank"
-          rel="noopener noreferrer"
-          className="group"
-        >
-          <span className="text-text-primary hover:text-accent transition-colors duration-200 font-medium">
-            {project.name}
-          </span>
-        </a>
-        <p className="text-text-secondary text-sm mt-1 mb-2">{project.description}</p>
-        <p className="text-text-secondary text-xs">{project.tags.join(', ')}</p>
+        <div className="flex items-start justify-between gap-4">
+          <div>
+            <p className="text-text-primary font-medium">{project.name}</p>
+            <p className="text-text-secondary text-sm mt-1 mb-2">{project.description}</p>
+            <p className="text-text-secondary text-xs">{project.tags.join(', ')}</p>
+          </div>
+          <a
+            href={project.url}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-accent hover:text-text-primary transition-colors duration-200 text-xs shrink-0 mt-1"
+          >
+            GitHub →
+          </a>
+        </div>
       </div>
     </ScrollReveal>
   )
