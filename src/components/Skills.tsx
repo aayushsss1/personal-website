@@ -92,13 +92,13 @@ export default function Skills() {
         </ScrollReveal>
 
         {/* Main technical grid */}
-        <div className="grid grid-cols-1 sm:grid-cols-2 gap-12 mb-12">
+        <div className="grid grid-cols-2 gap-8 sm:gap-12 mb-12">
           <SkillGroup label="AI & ML" items={aiAndML} delay={1} />
           <SkillGroup label="Cloud & DevOps" items={cloudAndDevOps} delay={2} />
         </div>
 
         {/* Supporting grid */}
-        <div className="grid grid-cols-1 sm:grid-cols-2 gap-12">
+        <div className="grid grid-cols-2 gap-8 sm:gap-12">
           <SkillGroup label="Data Science" items={dataScience} delay={1} />
           <SkillGroup label="Soft Skills" items={softSkills} delay={2} />
         </div>
