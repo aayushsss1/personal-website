@@ -15,7 +15,7 @@ const items = [
   {
     label: 'LinkedIn',
     value: 'Aayush Subramaniam',
-    href: 'https://linkedin.com/in/aayush-subramaniam',
+    href: 'https://linkedin.com/in/aayushsubramaniam/',
   },
 ]
 
